@@ -14,7 +14,7 @@
 </head>
 <body>
 <form:form action="/Controllers_war/info" modelAttribute="employee">
-    First name: <form:input ="username" />
+    First name: <form:input path="username" />
     <br><br>
     Last name: <form:input path="pass" />
     <br><br>
